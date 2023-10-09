@@ -4,15 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <div class="welcome">
-        <p class="head">Welcome to Web Pantry</p>
-        <p><button class="button yes">Get Started</button></p>
+    <div class="grog">
+        <p class="blank"></p>
+        <div class="welcome">
+            <p class="head">Welcome to Web Pantry</p>
+            <p>
+                <button class="button" onclick="window.location.href='./fill-pantry.html'">Get Started</button>
+                <button class="button" onclick="window.location.href='./create-recipe.hmtl'">Write a Recipe</button>
+            </p>
+        </div>
     </div>
-    
-        <div class="about"><p class="ahead">What is Web Pantry</p>
+    <div class="about">
+        <h2>What is Web Pantry</h2>
         <p>Web Pantry is an ongoing project designed to make 
             deciding what to eat easier. Web Pantry can help eliminate 
             food waste by allowing you to select what ingredients expire 
@@ -20,18 +29,22 @@
             them. If a recipe requires something you don't have, it will also
             offer substitutions.
         </p>
-        <p class="subhead">How it works</p>
+        <h3>How it works</h3>
         <p>
-            Select the ingredients that you want to use so that Web Pantry can sort 
+            Fill up your pantry by selecting ingredients that you have on hand. You 
+            can 
+            
+            Out
+            of the ingredients you selected, be sure to mark the ones that you want to use up
+            by selecting the 
             through recipes that use those ingredients. Next, you have the option to 
             select what other ingredients you have at your disposal. If you 
             choose to skip this step, WP will assume that you have or are willing to buy 
-            the remaining ingredients. Be sure to select 
-            "Do not suggest other ingredients"
-             if you only want to include the ingredients 
+            the remaining ingredients. Be sure to select <em>"Do not suggest other 
+            ingredients"</em> if you only want to include the ingredients 
             you have selected (no last minute trip to the grocery store).
         </p>
-        <p>This is a work-in-progress and I'm not getting
+        <p class="disclaim">This is a work-in-progress and I'm not getting
             paid to do this. I'm literally just making this for me but if 
             you wanna use it that's fine just no complaining if it sucks
         </p>
